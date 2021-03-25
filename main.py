@@ -1,5 +1,6 @@
 from instaclient import InstaClient
 from instaclient.errors import *
+import csv
 
 # Create a instaclient object. Place as driver_path argument the path that leads to where you saved the chromedriver.exe file
 client = InstaClient(driver_path='chromedriver.exe')
@@ -20,21 +21,34 @@ except SuspisciousLoginAttemptError as error:
 
 # profile = client.get_profile('robert.palade')
 # result = client.send_dm('madalinatugui', 'Sa ai o zi okey!')
-max_followers_count = 10
-target_user_followers = client.get_followers(user='robert.palade', count=max_followers_count)
+max_followers_count = 100
+target_user = 'madalinatugui'
+target_user_followers = client.get_followers(user=target_user, count=max_followers_count)
 followers_of_target_user = []
-target_user_following = client.get_following(user='robert.palade', count=max_followers_count)
+target_user_following = client.get_following(user=target_user, count=max_followers_count)
 print(type(target_user_followers))
 for follower in target_user_followers[0]:
     print("Target user follower: " + follower.username)
     followers_of_target_user.append(client.get_following(user=follower.username, count=max_followers_count))
 print(f"First {max_followers_count} followers of the target user: " + str(followers_of_target_user))
-print(f"First {max_followers_count} target user following: " + target_user_following)
+print(f"First {max_followers_count} target user following: " + str(target_user_following))
 count = 0
+edges = [["Source", "Target"]]
+nodes = [["id", "label"], [1, "madalinatugui"]]
+index = 2
 for one_following_target_user in target_user_following[0]:
-    for one_following_not_target_user in followers_of_target_user:
-        for one_following_not_palade_profile in one_following_not_target_user[0]:
+    for i in range(0, len(followers_of_target_user)):
+        for one_following_not_palade_profile in followers_of_target_user[i][0]:
             if one_following_target_user == one_following_not_palade_profile:
+                nodes.append([index, target_user_followers[0][i].username])
+                edges.append([1, index])
+                index += 1
                 print("Common following: " + one_following_target_user.username)
 
+with open('edges.csv', 'w', newline="\n") as file:
+    writer = csv.writer(file)
+    writer.writerows(edges)
+with open('nodes.csv', 'w', newline="\n") as file:
+        writer = csv.writer(file)
+        writer.writerows(nodes)
 # profile.refresh() # syncing with instagram
