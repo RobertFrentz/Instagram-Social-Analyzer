@@ -1,76 +1,112 @@
-Source,Target
-1,2
-1,3
-1,4
-1,5
-1,6
-1,7
-1,8
-1,9
-1,10
-1,11
-1,12
-1,13
-1,14
-1,15
-1,16
-1,17
-1,18
-1,19
-1,20
-1,21
-1,22
-1,23
-1,24
-1,25
-1,26
-1,27
-1,28
-1,29
-1,30
-1,31
-1,32
-1,33
-1,34
-1,35
-1,36
-1,37
-1,38
-1,39
-1,40
-1,41
-1,42
-1,43
-1,44
-1,45
-1,46
-1,47
-1,48
-1,49
-1,50
-1,51
-1,52
-1,53
-1,54
-1,55
-1,56
-1,57
-1,58
-1,59
-1,60
-1,61
-1,62
-1,63
-1,64
-1,65
-1,66
-1,67
-1,68
-1,69
-1,70
-1,71
-1,72
-1,73
-1,74
-1,75
-1,76
+Source,Target,Label,Type
+1,2,thelandofboggs,undirected
+1,3,robert.frentz cugetari.meticuloase,undirected
+1,4,robert.frentz teoirimia,undirected
+1,5,robert.frentz,undirected
+1,6,robert.frentz,undirected
+1,7,mariebojoux,undirected
+1,8,lupuandrei07 georgelambru dulapul_anastasiei2,undirected
+1,9,mihai97andrei,undirected
+1,10,mindarchitect.ro prodan.cornel,undirected
+1,11,mindarchitect.ro,undirected
+1,12,johnnydepp thegrandmaandthelesbian cristianpresura ce_miau,undirected
+1,13,mercur.retrograd,undirected
+1,14,mercur.retrograd,undirected
+15,16,lucacelsilviu,undirected
+15,17,alexaaa.maria,undirected
+18,12,madalinatugui,undirected
+18,19,madalinatugui,undirected
+18,20,madalinatugui,undirected
+18,21,madalinatugui,undirected
+18,4,madalinatugui,undirected
+18,14,drunkpeopledoingthings,undirected
+12,19,madalinatugui,undirected
+12,20,madalinatugui,undirected
+12,22,fashiondays,undirected
+12,8,andrei.stefan98,undirected
+12,7,binance,undirected
+12,21,robert.palade madalinatugui,undirected
+12,4,andrei.stefan98 playgendary iumor.romania mirceabadeareal jasonstatham danbilzerian etoro_official malina.surubaru robert.palade madalinatugui,undirected
+12,5,sean.castrina cristiano sebyddd sethgodin jonolsson1 kody itsdanielmac binance jacob iamzlatanibrahimovic alex_alexul,undirected
+12,13,fashiondays,undirected
+12,23,gbuhnici,undirected
+12,6,bytexromania alex_alexul,undirected
+12,24,fashiondays,undirected
+19,20,madalinatugui bucovinaultrarocks biaancadumbrava claudiu.bruma,undirected
+19,2,vlad.dobrincu,undirected
+19,8,biaancadumbrava,undirected
+19,25,therock,undirected
+19,21,madalinatugui,undirected
+19,4,madalinatugui,undirected
+19,5,therock,undirected
+16,26,dana.hriscu,undirected
+16,22,iamspeak,undirected
+16,14,iamspeak,undirected
+16,27,chef.sorinbontea.official chef_catalin_scarlatescu chefflorindumitrescu,undirected
+26,28,fuxinel,undirected
+28,29,eusuntionelaa,undirected
+3,20,viatransilvanica,undirected
+3,10,carolinagelen,undirected
+3,4,robert.frentz,undirected
+3,5,robert.frentz,undirected
+3,6,thewatchteacher robert.frentz chronodream,undirected
+3,30,miss.mariapopovici,undirected
+3,31,teddybaldassarre,undirected
+32,20,sergiu_rotariu31,undirected
+20,8,biaancadumbrava,undirected
+20,21,madalinatugui,undirected
+20,4,madalinatugui,undirected
+22,2,felixdragoi _tconstantin,undirected
+22,9,nugget,undirected
+22,7,filipcristiant,undirected
+22,13,fashiondays,undirected
+22,23,felixdragoi,undirected
+22,6,nugget,undirected
+22,24,fashiondays,undirected
+22,14,iamspeak,undirected
+2,10,ralukaofficial,undirected
+2,13,ana_baniciu ralukaofficial,undirected
+2,23,felixdragoi,undirected
+2,31,pubity,undirected
+2,33,ana_baniciu,undirected
+8,17,aerdevacanta alleboutique.ro,undirected
+8,10,frateria,undirected
+8,4,andrei.stefan98,undirected
+8,34,delia aerdevacanta nimenidenicaieri,undirected
+8,35,calatorinbascheti,undirected
+8,14,aerdevacanta,undirected
+8,36,aerdevacanta,undirected
+9,6,nugget,undirected
+17,34,aerdevacanta,undirected
+17,14,aerdevacanta,undirected
+17,31,sebastian_cotofana,undirected
+17,36,aerdevacanta __vsoutlet__,undirected
+25,5,therock,undirected
+25,13,estidinumf ana_te0d0rart biancaaa.lovin,undirected
+25,35,clavdiamp,undirected
+25,37,ana_te0d0rart,undirected
+38,7,librariadedesign,undirected
+38,5,thechrisdo,undirected
+10,13,ralukaofficial,undirected
+10,11,mindarchitect.ro,undirected
+7,5,binance,undirected
+39,30,frodomotosanty,undirected
+21,4,vladcorjuc florentinaamihaela madalinatugui robert.palade dtheodor21,undirected
+21,24,gsmnet_ro,undirected
+4,5,robert.frentz,undirected
+4,6,robert.frentz pruteanu.cornelia,undirected
+5,23,fuckboyproblem.s,undirected
+5,6,robert.frentz alex_alexul,undirected
+40,24,marisapalomabeautystudio marisapalomadesign,undirected
+40,14,memezar,undirected
+13,24,fashiondays ilpasso_shoes,undirected
+13,14,mercur.retrograd,undirected
+13,37,ana_te0d0rart,undirected
+13,33,ana_baniciu,undirected
+34,14,aerdevacanta fbim_iasi,undirected
+34,36,aerdevacanta,undirected
+34,27,selenagomez,undirected
+35,33,ss.gifts.deco,undirected
+41,11,vegood.organic,undirected
+14,36,aerdevacanta,undirected
+37,27,minetugay simaybarlass baharsahiin,undirected
